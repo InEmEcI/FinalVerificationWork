@@ -24,3 +24,26 @@ stringArray[3] = "computer science";
 // Выводим на эркан наполненный массив
 Console.WriteLine($"stringArray: {stringArray[0]}, {stringArray[1]}, {stringArray[2]}, {stringArray[3]}");
 
+
+
+
+/* -------------------------------------------------------------------------- */
+
+// метод, который из имеющегося массива строк формирует массив из строк, 
+// длина которых меньше либо равна 3 символа
+string[] ArraySort(string[] array)
+{
+    string[] newArray = new string[4];
+    int k = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            newArray[k] = array[i];
+            k++;
+        }
+
+    }
+
+    return newArray;
+}
