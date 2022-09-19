@@ -11,3 +11,12 @@
 // ["Russia","Denmark","Kazan"] -> []
 
 Console.Clear();
+
+
+
+// Намолняем массив строками 
+string[] stringArray = new string[4];
+stringArray[0] = "1234";
+stringArray[1] = "1567";
+stringArray[2] = "-2";
+stringArray[3] = "computer science";
