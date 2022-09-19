@@ -47,3 +47,21 @@ string[] ArraySort(string[] array)
 
     return newArray;
 }
+
+//Метод выводит на экран массив
+void PrintArray(string[] inputArray)
+{
+    //Буфферная переменная
+    int i = 0;
+    //Пробегаем все элементы массива
+    while (i < inputArray.Length - 1)
+    {
+        //Выводим элемент массива
+        Console.Write(inputArray[i] + " ");
+        //Увеличиваем инкремент
+        i++;
+    }
+    //Выводим элемент массива
+    Console.WriteLine(inputArray[i]);
+}
+
