@@ -20,3 +20,7 @@ stringArray[0] = "1234";
 stringArray[1] = "1567";
 stringArray[2] = "-2";
 stringArray[3] = "computer science";
+
+// Выводим на эркан наполненный массив
+Console.WriteLine($"stringArray: {stringArray[0]}, {stringArray[1]}, {stringArray[2]}, {stringArray[3]}");
+
