@@ -24,8 +24,12 @@ stringArray[3] = "computer science";
 // Выводим на эркан наполненный массив
 Console.WriteLine($"stringArray: {stringArray[0]}, {stringArray[1]}, {stringArray[2]}, {stringArray[3]}");
 
+// Сортируем массив
+ArraySort(stringArray);
 
-
+// Выводит на экран отсортированный массив строк
+Console.Write("Отсортированый массив: ");
+PrintArray(ArraySort(stringArray));
 
 /* -------------------------------------------------------------------------- */
 
